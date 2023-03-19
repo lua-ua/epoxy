@@ -1,0 +1,238 @@
+/*---header-overlay---*/
+@media (max-width:1092px) {
+    .overlay-menu__list {
+        margin: 0;
+    }
+
+    .overlay-menu__list:not(:last-child) {
+        margin: 0 50px 0 0;
+    }
+}
+
+@media (max-width:1074px) {
+    .overlay-top {
+        padding: 15px 15px 15px 0;
+    }
+}
+
+@media (max-width:867px) {
+    .overlay-menu {
+        display: flex;
+        justify-content: space-between;
+
+        padding: 30px 30px 0;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .overlay-menu__list li a {
+        font-size: 24px;
+        padding: 5px 0;
+        margin: 5px 0;
+    }
+
+    .overlay-menu__list:nth-child(1) {
+        order: 1;
+    }
+    .overlay-menu__list:nth-child(2) {
+        order: 3;
+    }
+    .overlay-menu__list:nth-child(3) {
+        order: 2;
+    }
+
+    #overlay-menu-nav {
+        text-align: left;
+    }
+
+    .overlay-menu_item-title {
+        font-size: 24px;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+    .overlay-menu_item-contacts {
+        padding: 5px;
+        padding-bottom: 40px;
+        color: #fff;
+        margin-top: -7px;
+    }
+
+    .overlay-contacts {
+        margin-top: 0;
+    }
+}
+
+@media (max-width:832px) {
+    .overlay-menu {
+        margin-bottom: 20px;
+    }
+    .overlay-contacts {
+        padding-bottom: 20px;
+    }
+    .overlay-menu__list:nth-child(1) {
+        margin-bottom: 35px;
+    }
+    .overlay-menu_item-contacts {
+        padding: 5px;
+    }
+    .contacts-socials__item {}
+    
+    .overlay-contacts {
+    }
+
+    .contacts-socials {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .contacts-socials__item {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* мобільні пристрої */
+@media (max-width:520px) {
+    .overlay-menu {
+        padding: 20px 10px 0;
+    }
+    .overlay-menu__list:nth-child(3) {
+        margin-right: 35px;
+    }
+    .overlay-menu__list:nth-child(2) {
+        margin: 0;
+    }
+}
+
+@media (max-width:426px) {
+    .overlay-menu {
+        display: block;
+        text-align: center;
+    }
+    #overlay-menu-nav {
+        text-align: center;
+        margin: 0;
+    }
+
+    #overlay-menu-nav {
+        margin-bottom: 30px;
+    }
+    .overlay-menu .overlay-menu__list {
+        margin-bottom: 30px;
+    }
+    
+
+    .overlay-menu__list li a {
+        font-size: 20px;
+    }
+
+    .overlay-menu_item-title {
+        font-size: 20px;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    .overlay-menu__list:nth-child(3) {
+        margin: 0;
+    }
+
+    .overlay-menu_item-schedule div {
+        font-size: 14px;
+    }
+
+    .overlay-menu_item-contacts div {
+        font-weight: 500;
+    }
+
+    .overlay-menu_item-contacts div,
+    .overlay-menu_item-contacts a{
+        font-size: 14px;
+    }
+}
+@media (max-width:404px) {
+    #burger-menu-close {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+    .overlay-menu {
+        padding-top: 50px;
+    }
+}
+/*---*/
+
+
+/*---header---*/
+@media (max-width:1074px) {
+    .header {
+        padding: 15px 15px 15px 0;
+    }
+}
+
+@media (max-width:940px) {
+    .header-nav {
+        display: none;
+    }
+}
+
+
+
+@media (max-width:540px) {
+    .logo-img img {
+        width: 150px;
+    }
+
+    .header {
+        min-height: 60px;
+    }
+
+
+    /* поява меню іконки користувача (вхід) */
+    .user-login-button .user-login-button__text {
+        display: none;
+    }
+    
+    .user-login-button .user-login-img {
+        display: block;
+    }
+
+    .user-line {
+        background-color: rgb(95, 95, 95);
+    }
+}
+
+@media (max-width:404px) {
+    .user-line {
+        margin: 15px;
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .header {
+        padding: 50px 0 0 0;
+    }
+
+}
+
+
+/*---banner---*/
+
+@media (max-width:769px) {
+    .entry-block-home-content {
+        padding-top: 100px;
+    }
+}
+@media (max-width:394px) {
+    .main__title {
+        font-size: 30px;
+    }
+
+    .entry-block-home-content {
+        padding-top: 60px;
+    }
+}
