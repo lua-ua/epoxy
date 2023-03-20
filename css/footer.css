@@ -1,0 +1,204 @@
+/* FOOTER (СЕКЦІЯ ПІДВАЛУ) */
+.footer {
+    min-width: 100%;
+    min-height: 255px;
+    padding: 30px 0;
+    background-color: #212121;
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer__contact {
+    max-width: 130px;
+}
+
+.contact__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.contact__list {
+    display: flex;
+    flex-direction: column;
+}
+.contact__item {
+    display: inline-flex;
+    align-items: center;
+}
+.contact__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.contact__link {
+}
+.contact__image {
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+.contact-icon {
+    display: block;
+    width: 40px;
+    margin-right: -20px;
+    
+    transition: all 0.3s;
+}
+.contact-link {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    padding: 8px 10px 8px 30px;
+    color: #000000;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 0 10px 10px 0;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 0.3s;
+}
+.contact-icon {
+    padding: 2px;
+    box-sizing: content-box;
+    background-color: #fff;
+    border-radius: 50%;
+}
+._overflow-hidden {
+}
+
+#instagram-icon.scale,
+#viber-icon.scale,
+#whatsapp-icon.scale,
+#telegram-icon.scale,
+#tiktok-icon.scale {
+    scale: 1.1;
+}
+#instagram-text.visible,
+#viber-text.visible,
+#whatsapp-text.visible,
+#telegram-text.visible,
+#tiktok-text.visible {
+    visibility: visible;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+.footer__general {
+}
+._general {
+}
+.general__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.general__list {
+}
+.general__item {
+}
+.general__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.general__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+.footer__work-schedule {
+}
+._work-schedule {
+}
+.work-schedule__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.work-schedule__list {
+}
+.work-schedule__item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.work-schedule__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.footer__aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 200px;
+}
+._aside {
+}
+.footer__numbers-phone {
+    margin-bottom: 50px;
+}
+._numbers-phone {
+}
+.numbers-phone__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.numbers-phone__list {
+}
+.numbers-phone__item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.numbers-phone__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer__address {
+}
+._address {
+}
+.address__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.address__description {
+    margin-bottom: 10px;
+}
+.address__description,
+.address__email {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.address__email {
+    font-weight: 400;
+    font-size: 12px;
+}
