@@ -1,0 +1,433 @@
+/*---header-overlay---*/
+@media (max-width:1092px) {
+    .overlay-menu__list {
+        margin: 0;
+    }
+
+    .overlay-menu__list:not(:last-child) {
+        margin: 0 50px 0 0;
+    }
+}
+
+@media (max-width:1074px) {
+    .overlay-top {
+        padding: 15px 15px 15px 0;
+    }
+}
+
+@media (max-width:940px) {
+    .header-overlay .overlay-top {
+        padding: 5px 0;
+    }
+}
+
+@media (max-width:867px) {
+    .header-overlay .overlay-menu {
+        padding: 30px 30px 0;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .overlay-menu__list li a {
+        font-size: 24px;
+        padding: 5px 0;
+        margin: 5px 0;
+    }
+
+    .overlay-menu__list:nth-child(1) {
+        order: 1;
+    }
+    .overlay-menu__list:nth-child(2) {
+        order: 3;
+        margin: 0;
+    }
+    .overlay-menu__list:nth-child(3) {
+        order: 2;
+    }
+
+    #overlay-menu-nav {
+        text-align: left;
+    }
+
+    .overlay-menu_item-title {
+        font-size: 24px;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+    .overlay-menu_item-contacts {
+        padding: 5px;
+        padding-bottom: 40px;
+        color: #fff;
+        margin-top: -7px;
+    }
+}
+
+@media (max-width:832px) {
+    .overlay-menu {
+        margin-bottom: 20px;
+    }
+    .overlay-contacts {
+        padding-bottom: 20px;
+    }
+    .overlay-menu__list:nth-child(1) {
+        margin-bottom: 35px;
+    }
+    .overlay-menu_item-contacts {
+        padding: 5px;
+    }
+
+    .contacts-socials {
+        margin: 30 auto;
+        display: block;
+    }
+
+    .contacts-socials__item {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* мобільні пристрої */
+@media (max-width:769px) {
+    .overlay-menu__list li a {
+        font-size: 20px;
+    }
+
+    .overlay-menu_item-title {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .overlay-menu_item-contacts .city {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .overlay-menu_item-contacts .address {
+        font-size: 14px;
+    }
+    .overlay-menu_item-contacts .phone {
+        font-size: 14px;
+    }
+
+    .overlay-menu_item-schedule div {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    .icon__instagram {
+        background-color: #DD2A7B;
+        border: 1px solid #DD2A7B;
+    }
+
+    .icon__viber {
+        background-color: #59267c;
+        border: 1px solid #59267c;
+    }
+
+    .icon__telegram {
+        background-color: #0088cc;
+        border: 1px solid #0088cc;
+    }
+
+    .icon__whatsapp {
+        background-color: #0b710b;
+        border: 1px solid #0b710b;
+    }
+
+    .icon__tiktok {
+        background-color: #392a49;
+        border: 1px solid #392a49;
+    }
+
+    .icon__email {
+        background-color: #0026ff;
+        border: 1px solid #0026ff;
+    }
+
+    .contacts-socials__item {
+        display: inline-flex;
+    }
+
+    .contacts-socials {
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contacts-socials__icon img {
+        width: 12px;
+        height: 12px;
+        margin-right: 4px;
+        margin-top: -3px;
+    }
+    
+    .contacts-socials__name {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:460px) {
+    .header-overlay .overlay-menu {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width:426px) {
+    .header-overlay .overlay-menu {
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #burger-menu-close {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+
+    #burger-menu-line-rotate::before,
+    #burger-menu-line-rotate::after {
+        height: 2px;
+    }
+    #burger-menu-line-rotate::before {
+        top: 6.5px;
+    }
+    #burger-menu-line-rotate::after {
+        bottom: 6.5px;
+    }
+
+    #overlay-menu-nav {
+        text-align: center;
+        margin: 0;
+    }
+
+    .overlay-menu .overlay-menu__list {
+        margin-bottom: 30px;
+    }
+    
+
+    .overlay-menu__list li a {
+        font-size: 20px;
+    }
+
+    .overlay-menu_item-title {
+        font-size: 20px;
+        padding: 0;
+        margin: 40px 0 15px;
+    }
+
+    .overlay-menu__list:nth-child(3) {
+        margin: 0;
+    }
+
+}
+/*---*/
+
+
+
+
+
+/*---header---*/
+@media (max-width:1074px) {
+    .header {
+        padding: 15px 15px 15px 0;
+    }
+}
+
+@media (max-width:940px) {
+    .header {
+        min-height: 61px;
+        padding: 5px 0;
+    }
+
+    .header-nav {
+        display: none;
+    }
+}
+
+
+/* мобільні пристрої */
+@media (max-width:769px) {
+    .logo-img img {
+        width: 150px;
+    }
+
+    .header {
+        min-height: 51px;
+        padding: 5px 0;
+    }
+
+    #burger-menu-line::before,
+    #burger-menu-line,
+    #burger-menu-line::after {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    /* поява меню іконки користувача (вхід) */
+    .user-login-button .user-login-button__text {
+        display: none;
+    }
+    
+    .user-login-button .user-login-img {
+        display: block;
+        
+    }
+
+    .user-line {
+        background-color: rgb(95, 95, 95);
+    }
+
+    .user-basket-img img {
+        padding-bottom: 2px;
+    }
+}
+@media (max-width:540px) {
+    
+}
+
+
+@media (max-width:426px) {
+    #burger-menu {
+        width: 22px;
+        height: 22px;
+    }
+
+    #burger-menu-line::before,
+    #burger-menu-line,
+    #burger-menu-line::after {
+        height: 3.2px;
+    }
+
+    .user-login-img img {
+        width: 35px;
+    }
+
+    .user-basket-img img {
+        width: 25px;
+        padding-bottom: 2px;
+    }
+
+    .user-line {
+        height: 30px;
+        margin: 0 15px;
+    }
+
+    .logo {
+        margin-left: -20px;
+    }
+
+    .logo-img img {
+        width: 130px;
+    }
+
+    .header {
+        padding: 5px 0;
+        min-height: 44px;
+    }
+
+}
+/*---*/
+
+
+
+
+
+
+
+
+
+/*---banner---*/
+@media (max-width:769px) {
+    .entry-block-home-content {
+        padding-top: 100px;
+    }
+
+    .main__title {
+        font-size: 30px;
+    }
+    
+    .main__subtitle {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .main__button a {
+        padding: 8px 18px;
+        font-size: 15px;
+        color: #000000;
+        background-color: #fff;
+        border: none;
+    }
+
+    .rules__number {
+        font-size: 18px;
+    }
+
+    .rules__description {
+        font-size: 14px;
+    }
+
+
+    .entry-block-home-content .main__subtitle {
+        margin-bottom: 20px;
+    }
+
+
+    .scroll-container .mouse {
+        display: none;
+    }
+}
+
+
+@media (max-width:665px) {
+    .main__title {
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .main__subtitle {
+        font-size: 17px;
+    }
+
+    .entry-block-home .rules {
+        display: block;
+        margin-top: 65px;
+    }
+
+    .entry-block-home .rules .rules__item {
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .entry-block-home .rules .rules__item::after {
+        bottom: -5px;
+    }
+}
+
+@media (max-width:426px) {
+    .entry-block-home-content .main {
+        padding: 50px 0;
+    }
+    .entry-block-home-content {
+        padding: 0;
+        padding-bottom: 70px;
+    }
+    .entry-block-home-content .rules {
+        margin: 0;
+        max-width: 260px;
+    }
+
+    
+}
+
+@media (max-width:394px) {
+    .main__title {
+        font-size: 30px;
+    }
+
+}
